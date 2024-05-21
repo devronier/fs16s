@@ -1,0 +1,33 @@
+h1 {
+  background-color: black;
+  color: red;
+  text-align: center;
+
+  border-color: aquamarine;
+  border-style: solid;
+  border-width: 2px;
+}
+
+p {
+  background-color: black;
+  color: white;
+  text-align: center;
+
+  border: aquamarine solid 2px;
+}
+
+#diferente {
+  background-color: blueviolet;
+}
+
+button {
+  background-color: grey;
+  border-color: blue;
+
+  width: 150px;
+  height: 60px;
+}
+
+.arredondados {
+  border-radius: 20px;
+}
