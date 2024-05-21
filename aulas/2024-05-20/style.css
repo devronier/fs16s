@@ -1,0 +1,27 @@
+h1 {
+  color: red;
+}
+
+h1:hover {
+  color: blue;
+}
+
+ul li {
+  color: blue;
+}
+
+li:nth-child(even) {
+  color: red;
+}
+
+#fla:hover {
+  color: black;
+}
+
+.ce:hover {
+  color: green;
+}
+
+button:focus {
+  background-color: pink;
+}

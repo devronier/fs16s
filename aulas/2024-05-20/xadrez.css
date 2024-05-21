@@ -1,0 +1,18 @@
+.linha {
+  background-color: aqua;
+  display: flex;
+
+  height: 100vh;
+
+  flex-direction: row;
+}
+
+.celula {
+  background-color: black;
+  min-width: 100px;
+  height: 100px;
+
+  max-width: 100px;
+
+  border: 1px solid white;
+}
