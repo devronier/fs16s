@@ -135,4 +135,36 @@
     right: 0;
     top: 0;
   }
+
+  #face {
+    color: #fff;
+    background-color: blue;
+    border-radius: 50%;
+    padding: 5px;
+    font-size: 1.5em;
+  }
+
+  #tw {
+    background-color:#c92071;
+    color: #fff;
+    border-radius: 50%;
+    padding: 5px;
+    font-size: 1.5em;
+  }
+
+  #insta {
+    color: #fff;
+    background-color: #f6aa1c;
+    border-radius: 50%;
+    padding: 5px;
+    font-size: 1.5em;
+  }
+
+  #tele {
+    color: #fff;
+    font-size: 1.5em;
+    background-color: blue;
+    border-radius: 50%;
+    padding: 5px;
+  }
   
