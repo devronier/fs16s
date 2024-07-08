@@ -13,24 +13,24 @@ Para instalar o git em seu computador, inicialmente acesse o site [pagina de dow
 Feito isso, realize o *download*  desta verssão.
 
 Já com o programa de intalação do git, em seu computador, clique duas vezes sobre ele e em seguida em “*Executar”.* Se tudo estiver correto, você deverá está vendo a seguinte tela em seu monitor:
-![image](https://ronierdev.notion.site/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2Fc63704c2-e70f-4997-88e7-6562a3fa27a9%2F4e9ddcef-9607-49ca-922d-a057270a829e%2FUntitled.png?table=block&id=efcd42f8-0438-4f73-9341-4878874751f5&spaceId=c63704c2-e70f-4997-88e7-6562a3fa27a9&width=990&userId=&cache=v2)
+![image](.\imagens\imagem_1.png)
 Agora, para continuar com a instalação, clicaremos em “Next” até que a seguinte tela seja apresentada:
-![image](https://ronierdev.notion.site/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2Fc63704c2-e70f-4997-88e7-6562a3fa27a9%2F0fb8d157-3a02-4687-9aa7-268e67153350%2FUntitled.png?table=block&id=390a71e5-6409-4295-8b96-c5b9f0e75cde&spaceId=c63704c2-e70f-4997-88e7-6562a3fa27a9&width=1000&userId=&cache=v2)
+![image](.\imagens\imagem_2.png)
 Nesse momento,  temos duas opções: continuar usando *"master"* como a branch padrão ou optar por uma nomenclatura diferente. A escolha é do desenvolvedor, mas vale notar que existe um movimento na comunidade de desenvolvimento para abandonar o termo *"master"* devido à sua conotação histórica relacionada à escravidão. Em vez disso, muitos passaram a usar *"main"* para se referir à branch principal do repositório.
 
 Seleciona a opção desejada, basta clicar em *“Next”*, para seguir com a instalação. E poderemos seguir clicando nele até que seja apresentada a seguinte tela, indicando que a instalação está em andamento:
-![image](https://ronierdev.notion.site/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2Fc63704c2-e70f-4997-88e7-6562a3fa27a9%2Fd6808616-0b84-4fee-9c2a-ce077f60bd3f%2FUntitled.png?table=block&id=23b0a9f4-f271-4a73-918f-1dad54879402&spaceId=c63704c2-e70f-4997-88e7-6562a3fa27a9&width=990&userId=&cache=v2)
+![image](.\imagens\imagem_3.png)
 Por fim sera exibida a seginte tela, informando que a instalação foi bem sucedida:
-![image](https://ronierdev.notion.site/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2Fc63704c2-e70f-4997-88e7-6562a3fa27a9%2F2613a13e-92ae-424e-b297-cece2b2f42b4%2FUntitled.png?table=block&id=91f742db-4771-4264-8914-80bc56086674&spaceId=c63704c2-e70f-4997-88e7-6562a3fa27a9&width=980&userId=&cache=v2)
+![image](.\imagens\imagem_4.png)
 
 ## **Criação de um repositório Git. (Init)**
 
 Agora, com o Git devidamente instalado em seu computador, podemos iniciar nosso primeiro repositório. Existem diferentes formas de se iniciar um repositório Git em diversos sistemas operacionais (OS). Neste passo a passo, vamos demonstrar a criação mais comum para o sistema operacional Windows.
 
 Crie uma pasta em seu computador em um diretório de sua preferência e, em seguida, clique com o botão direito do mouse sobre ela. Isso abrirá o menu de contexto do Windows, semelhante à imagem a seguir.
-![image](https://ronierdev.notion.site/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2Fc63704c2-e70f-4997-88e7-6562a3fa27a9%2F18d0f4b3-fcc9-4c55-9033-e09bd78e99a1%2FUntitled.png?table=block&id=54a12e63-4490-4b6a-b694-3fca8caeeded&spaceId=c63704c2-e70f-4997-88e7-6562a3fa27a9&width=480&userId=&cache=v2)
+![image](.\imagens\imagem_5.png)
 Em seguida, clique em “Open Git Bash Here”. Fazendo isso, você irá inicializar o terminal do Git Bash no diretório do seu futuro repositório Git. Se tudo estiver correndo bem, você deverá ver uma tela semelhante a esta:
-![image](https://ronierdev.notion.site/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2Fc63704c2-e70f-4997-88e7-6562a3fa27a9%2F98ad125b-eaae-48d5-b19d-930e428771b7%2FUntitled.png?table=block&id=a898e7fd-029b-43dc-b875-923da74cc949&spaceId=c63704c2-e70f-4997-88e7-6562a3fa27a9&width=1160&userId=&cache=v2)
+![image](.\imagens\imagem_6.png)
 > **Git Bash** é um aplicativo que fornece uma emulação de linha de comando do Bash em um ambiente Windows. Ele permite que você use comandos Git e Unix para gerenciar seus repositórios, tornando a experiência de uso do Git mais consistente com outros sistemas operacionais baseados em Unix, como Linux e macOS.
 > 
 
@@ -77,7 +77,7 @@ git status
 Este comando mostra quais mudanças foram registradas, quais não foram e quais arquivos não estão sendo rastreados pelo Git.
 
 Fazendo isso, devemos ver, algo semelhante a isso:
-![image](https://ronierdev.notion.site/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2Fc63704c2-e70f-4997-88e7-6562a3fa27a9%2F6123530c-eb41-4509-b4fe-29a67585555a%2FUntitled.png?table=block&id=4d280408-9688-4568-a344-1d936bf58681&spaceId=c63704c2-e70f-4997-88e7-6562a3fa27a9&width=1160&userId=&cache=v2)
+![image](.\imagens\imagem_7.png)
 Nesse momento, o Git está nos informando que existem arquivos que não estão sendo "monitorados" por ele. Em seguida, ele sugere qual comando podemos executar para que o arquivo seja adicionado à sua stack:
 
 ```bash
@@ -93,7 +93,7 @@ git add .
 Isso adicionará todos os novos arquivos e mudanças ao estágio de preparação, prontos para o próximo commit.
 
 Verificando o status do nosso repositório agora poderemos ver que o arquivo foi adicionado a stack do git.
-![image](https://ronierdev.notion.site/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2Fc63704c2-e70f-4997-88e7-6562a3fa27a9%2Ffa0bba40-ef6e-49bd-b1e1-3c278729bbbc%2FUntitled.png?table=block&id=ee642ce4-ff93-4c6a-be77-82d408d08df6&spaceId=c63704c2-e70f-4997-88e7-6562a3fa27a9&width=880&userId=&cache=v2)
+![image](fs16s\aulas\2024-05-13\imagens\imagem_8.png)
 Certo, agora nossos arquivos já estão versionados? Sinto em dizer, mas a resposta é ainda não. Para que uma nova versão do nosso projeto seja gerada, precisaremos executar mais um comando, que é:
 
 ```bash
@@ -190,7 +190,7 @@ git merge <nome da branch que desejamos fundir a principal>
 Caso, tudo tenha corrido bem, agora teremos uma nova versão do projeto, onde todas as modificações realizadas paralelamente, estaram fazendo parte da linha do tempo principal do projeto.
 
 De formar visual, um projeto ramificado, deve ter a serguinte estrutura.
-![image](https://ronierdev.notion.site/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2Fc63704c2-e70f-4997-88e7-6562a3fa27a9%2F13a0b53d-7f67-4e0a-8123-6f8902f43710%2FUntitled.png?table=block&id=43fc6f6c-7823-491d-8f53-9d75b4966d18&spaceId=c63704c2-e70f-4997-88e7-6562a3fa27a9&width=1320&userId=&cache=v2)
+![image](.\imagens\imagem_9.png)
 
 ## 🏡 Tarefa de casa:
 
