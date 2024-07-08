@@ -1,5 +1,3 @@
-**Aula ministrada pelo Elias**
-
 Encaminhamentos:
 
 Estudar linguagens de marcação
