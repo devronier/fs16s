@@ -83,7 +83,7 @@ Agora vamos praticar um pouco.
     
     Ao final o desafio, deveremos ter algo semelhante a isso:
     
-    ![getStartedBtn](https://ronierdev.notion.site/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2Fc63704c2-e70f-4997-88e7-6562a3fa27a9%2F627d460f-4e43-488c-9ffb-96e790cc42f0%2FUntitled.png?table=block&id=37585a18-0a36-46f8-90bf-dd5de2499dd1&spaceId=c63704c2-e70f-4997-88e7-6562a3fa27a9&width=230&userId=&cache=v2)
+    <img src="./assets/getStartedBtn.png" alt="get started button" width="100" height="50"/>
 
     Agora é a sua vez, logo mais iremos apresentar uma das possíveis soluções para esse desafio.
 
@@ -93,7 +93,7 @@ Agora vamos praticar um pouco.
     
     Ao final do desafio, esperamos ter algo semelhante a isso:
 
-    ![getStartedBtn](https://ronierdev.notion.site/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2Fc63704c2-e70f-4997-88e7-6562a3fa27a9%2Fee915327-03fb-417b-a87d-6fbfe7142953%2FUntitled.png?table=block&id=3834dd21-366d-430c-85b8-441c96936c25&spaceId=c63704c2-e70f-4997-88e7-6562a3fa27a9&width=1590&userId=&cache=v2)
+    <img src="./assets/emailAddress.png" alt="email address" width="600" height="100"/>
 
     Agora é com você, logo mais iremos apresentar uma das possíveis soluções para esse desafio.
 
@@ -105,7 +105,7 @@ Agora vamos praticar um pouco.
     
     Ao final do desafio, o que queremos obter é um resiltado semelhante a este:
 
-    ![getStartedBtn](https://ronierdev.notion.site/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2Fc63704c2-e70f-4997-88e7-6562a3fa27a9%2F60a9c7ee-b2f2-4640-b8e0-4d4b4b51b4c5%2FUntitled.png?table=block&id=6eea9419-a177-40f6-8c7c-8fa83f2d2897&spaceId=c63704c2-e70f-4997-88e7-6562a3fa27a9&width=880&userId=&cache=v2)
+    <img src="./assets/form.png" alt="email address" width="300" height="200"/>
 
     ## Tailwind
 
@@ -185,7 +185,7 @@ Agora vamos praticar um pouco.
     
     Ao final o desafio, deveremos ter algo semelhante a isso:
     
-     ![getStartedBtn](https://ronierdev.notion.site/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2Fc63704c2-e70f-4997-88e7-6562a3fa27a9%2F627d460f-4e43-488c-9ffb-96e790cc42f0%2FUntitled.png?table=block&id=7fffe211-dd9a-46c3-b35b-a32ee521f213&spaceId=c63704c2-e70f-4997-88e7-6562a3fa27a9&width=230&userId=&cache=v2)
+     <img src="./assets/getStartedBtn.png" alt="get started button" width="100" height="50"/>
 
      Agora é a sua vez, logo mais iremos apresentar uma das possíveis soluções para esse desafio.
 
@@ -194,7 +194,7 @@ Agora vamos praticar um pouco.
     Agora nosso novo desafio vai  ser criar um campo onde o usuário poderá, preecher com seu email. Esse campo de ve conter uma `label` que o identifique, com o nome “email”.
     
     Ao final do desafio, esperamos ter algo semelhante a isso:
-    ![getStartedBtn](https://ronierdev.notion.site/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2Fc63704c2-e70f-4997-88e7-6562a3fa27a9%2Fee915327-03fb-417b-a87d-6fbfe7142953%2FUntitled.png?table=block&id=f66fbb1b-48e6-4c9c-9592-c11eb0245d73&spaceId=c63704c2-e70f-4997-88e7-6562a3fa27a9&width=1590&userId=&cache=v2)
+    <img src="./assets/emailAddress.png" alt="email address" width="600" height="100"/>
 
     Agora é com você, logo mais iremos apresentar uma das possíveis soluções para esse desafio.
 
@@ -204,8 +204,9 @@ Agora vamos praticar um pouco.
     
     Obs.: Não é necessário implementar nem uma ação nesse formulario ainda. Nesse desafio deveremos desenvolver apenas os campos e botão do formulário.
     
-    Ao final do desafio, o que queremos obter é um resiltado semelhante a este:
-![getStartedBtn](https://ronierdev.notion.site/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2Fc63704c2-e70f-4997-88e7-6562a3fa27a9%2F60a9c7ee-b2f2-4640-b8e0-4d4b4b51b4c5%2FUntitled.png?table=block&id=a4e716bf-1225-467b-ba34-aa6b32a14614&spaceId=c63704c2-e70f-4997-88e7-6562a3fa27a9&width=880&userId=&cache=v2)
+    Ao final do desafio, o que queremos obter é um resultado semelhante a este:
+
+<img src="./assets/form.png" alt="email address" width="300" height="200"/>
 
 ## 🏡 Tarefa de casa:
 
