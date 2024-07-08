@@ -13,24 +13,24 @@ Para instalar o git em seu computador, inicialmente acesse o site [pagina de dow
 Feito isso, realize o *download*  desta verssão.
 
 Já com o programa de intalação do git, em seu computador, clique duas vezes sobre ele e em seguida em “*Executar”.* Se tudo estiver correto, você deverá está vendo a seguinte tela em seu monitor:
-![image](.\imagens\imagem_1.png)
+![image](\imagens\imagem_1.png)
 Agora, para continuar com a instalação, clicaremos em “Next” até que a seguinte tela seja apresentada:
-![image](.\imagens\imagem_2.png)
+![image](\imagens\imagem_2.png)
 Nesse momento,  temos duas opções: continuar usando *"master"* como a branch padrão ou optar por uma nomenclatura diferente. A escolha é do desenvolvedor, mas vale notar que existe um movimento na comunidade de desenvolvimento para abandonar o termo *"master"* devido à sua conotação histórica relacionada à escravidão. Em vez disso, muitos passaram a usar *"main"* para se referir à branch principal do repositório.
 
 Seleciona a opção desejada, basta clicar em *“Next”*, para seguir com a instalação. E poderemos seguir clicando nele até que seja apresentada a seguinte tela, indicando que a instalação está em andamento:
-![image](.\imagens\imagem_3.png)
+![image](\imagens\imagem_3.png)
 Por fim sera exibida a seginte tela, informando que a instalação foi bem sucedida:
-![image](.\imagens\imagem_4.png)
+![image](\imagens\imagem_4.png)
 
 ## **Criação de um repositório Git. (Init)**
 
 Agora, com o Git devidamente instalado em seu computador, podemos iniciar nosso primeiro repositório. Existem diferentes formas de se iniciar um repositório Git em diversos sistemas operacionais (OS). Neste passo a passo, vamos demonstrar a criação mais comum para o sistema operacional Windows.
 
 Crie uma pasta em seu computador em um diretório de sua preferência e, em seguida, clique com o botão direito do mouse sobre ela. Isso abrirá o menu de contexto do Windows, semelhante à imagem a seguir.
-![image](.\imagens\imagem_5.png)
+![image](\imagens\imagem_5.png)
 Em seguida, clique em “Open Git Bash Here”. Fazendo isso, você irá inicializar o terminal do Git Bash no diretório do seu futuro repositório Git. Se tudo estiver correndo bem, você deverá ver uma tela semelhante a esta:
-![image](.\imagens\imagem_6.png)
+![image](\imagens\imagem_6.png)
 > **Git Bash** é um aplicativo que fornece uma emulação de linha de comando do Bash em um ambiente Windows. Ele permite que você use comandos Git e Unix para gerenciar seus repositórios, tornando a experiência de uso do Git mais consistente com outros sistemas operacionais baseados em Unix, como Linux e macOS.
 > 
 
@@ -77,7 +77,7 @@ git status
 Este comando mostra quais mudanças foram registradas, quais não foram e quais arquivos não estão sendo rastreados pelo Git.
 
 Fazendo isso, devemos ver, algo semelhante a isso:
-![image](.\imagens\imagem_7.png)
+![image](\imagens\imagem_7.png)
 Nesse momento, o Git está nos informando que existem arquivos que não estão sendo "monitorados" por ele. Em seguida, ele sugere qual comando podemos executar para que o arquivo seja adicionado à sua stack:
 
 ```bash
@@ -93,7 +93,7 @@ git add .
 Isso adicionará todos os novos arquivos e mudanças ao estágio de preparação, prontos para o próximo commit.
 
 Verificando o status do nosso repositório agora poderemos ver que o arquivo foi adicionado a stack do git.
-![image](fs16s\aulas\2024-05-13\imagens\imagem_8.png)
+![image](\imagens\imagem_8.png)
 Certo, agora nossos arquivos já estão versionados? Sinto em dizer, mas a resposta é ainda não. Para que uma nova versão do nosso projeto seja gerada, precisaremos executar mais um comando, que é:
 
 ```bash
@@ -190,7 +190,7 @@ git merge <nome da branch que desejamos fundir a principal>
 Caso, tudo tenha corrido bem, agora teremos uma nova versão do projeto, onde todas as modificações realizadas paralelamente, estaram fazendo parte da linha do tempo principal do projeto.
 
 De formar visual, um projeto ramificado, deve ter a serguinte estrutura.
-![image](.\imagens\imagem_9.png)
+![image](\imagens\imagem_9.png)
 
 ## 🏡 Tarefa de casa:
 
