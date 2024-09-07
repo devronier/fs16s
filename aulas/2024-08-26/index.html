@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h2>Cadastre uma Pessoa</h2>
+
+    <input id="nome" type="text" placeholder="Nome">
+    <input id="sobrenome" type="text" placeholder="Sobrenome">
+    <input type="url" id="imagem">
+    <input type="file">
+
+    <button onclick="cadastrar()">Cadastrar</button>
+
+    <h2>Pessoa</h2>
+
+    <p id="pessoa"></p>
+
+
+
+    <script>
+
+        function cadastrar() {
+
+            const nomeInput = document.getElementById("nome");
+            const sobrenomeInput = document.getElementById("sobrenome");
+            const imageInput = document.getElementById("imagem");
+
+            const pessoa = {
+                nome: nomeInput.value,
+                sobrenome: sobrenomeInput.value,
+                imagem: imageInput.value,
+            }
+
+            const pessoaParagrafo = document.getElementById("pessoa")
+
+            pessoaParagrafo.innerHTML = "Nome: " + pessoa.nome + "<br>"
+            pessoaParagrafo.innerHTML += "Sobrenome: " + pessoa.sobrenome + "<br>"
+            pessoaParagrafo.innerHTML += '<img src="' + pessoa.imagem + '">'
+
+        }
+    </script>
+</body>
+
+</html>
