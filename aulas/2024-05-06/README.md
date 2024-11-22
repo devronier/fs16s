@@ -136,7 +136,7 @@ Em nosso arquivo de estilização faremos o seguinte:
 }
 ```
 Fazendo isso, deveremos ter  resultado final, uma página dessa forma:
-![página](.\Untitled.png)
+![página](\Untitled.png)
 ## 🏠Tarefa de casa:
 
 - Estudar sobre [CSS Bem](https://getbem.com/introduction/).
