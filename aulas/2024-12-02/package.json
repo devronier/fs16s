@@ -1,0 +1,7 @@
+{
+  "name": "2024-12-02",
+  "scripts": {
+    "start": "node os.js"
+  }
+}
+
